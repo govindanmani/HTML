@@ -1,0 +1,13 @@
+import {useState} from 'react';
+function Message()
+{
+    const [showMessage,setshowMessage] = useState(false);
+    return(
+        <div>
+        <button onClick={()=>setshowMessage(!showMessage)}>{showMessage ? 'hello':'world'} Click  </button>
+        {showMessage && <p>Hi welcome All</p>}
+         
+        </div>
+    )
+}
+export default Message;
