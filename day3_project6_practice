@@ -1,0 +1,19 @@
+import {useState} from 'react';
+
+function Togglel(){
+    const[state,setState]=useState('Kaioken')
+
+    function addele()
+    {
+            setState(state ==='Kaioken' ? 'SuperSaiyan':'Kaioken')
+    }
+  
+    return(
+        <div>
+            <h2 class={state}>Hello, World!</h2>
+            <button onClick={addele}>Toggle Class</button>
+        </div>
+    )
+}
+
+export default Togglel;
