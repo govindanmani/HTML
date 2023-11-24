@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+        <!-- <button onclick="document.getElementById('demo').innerHTML=Date()"> click me!</button> -->
+        <!-- <p onmouseover="this.innerHTML=Date()"> click me!</p> -->
+        <!-- <p onmousedown="this.innerHTML=Date()"> click me!</p> -->
+        <!-- <p onmousemove="this.innerHTML=Date()"> click me!</p> -->
+        <!-- <p onmouseenter="this.innerHTML=Date()"> click me!</p> -->
+        
+        <!-- <p id="demo">this create </p> -->
+        <!-- <button id =demo> this.sis</button> -->
+        <!-- <p id="demo" onmouseover="change">hello world to main</p> -->
+
+ 
+    <script>
+        alert("welcome");
+        let name=['a','e','i','o'];
+        console.log(name);
+        let name1=name;
+        name.push('u');
+        console.log(name[0]);
+        console.log(name1);
+        
+        let name2=['a','e','i','o'];
+
+        for(let i=0;i<name2.length;i++)
+        {
+            console.log(name2[i]);
+        }
+
+        var arr =['a','e','i','o'];
+        for(int i=0;i<arr.length;i++)
+        {
+            console.log(arr[i]);
+        }
+
+        function change()
+        {
+            
+            document.getElementById('demo').innerHTML="welcome to new language";
+        }
+
+
+        </script>
+        <p id="demo" onmouseover="change()">hello world to main</p>
+</body>
+</html>
